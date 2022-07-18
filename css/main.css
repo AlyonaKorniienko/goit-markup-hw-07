@@ -892,7 +892,7 @@ body {
   margin-right: 8px;
 }
 
-.checkbox_icon {
+.checkbox__icon {
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -900,7 +900,7 @@ body {
   border-radius: 2px;
 }
 
-.policy__checkbox:checked + .checkbox {
+.policy__checkbox:checked + .checkbox__icon {
   border-color: transparent;
   background-image: url("../images/checkbox-icon.svg");
   background-size: contain;
@@ -1093,7 +1093,7 @@ body {
   margin-right: 8px;
 }
 
-.checkbox_icon {
+.checkbox__icon {
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -1101,7 +1101,7 @@ body {
   border-radius: 2px;
 }
 
-.policy__checkbox:checked + .checkbox {
+.policy__checkbox:checked + .checkbox__icon {
   border-color: transparent;
   background-image: url("../images/checkbox-icon.svg");
   background-size: contain;
